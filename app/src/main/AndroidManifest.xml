@@ -29,6 +29,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TlActivity"
+            android:label="@string/title_activity_tl"
+            android:theme="@android:style/Theme.DeviceDefault.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_action"></activity>
+        <activity android:name="android.support.wearable.activity.ConfirmationActivity" android:exported="false" />
     </application>
 
-</manifest><!-- Copyright (c) 2017 YA <ya.androidapp@gmail.com> All rights reserved. This software includes the work that is distributed in the Apache License 2.0 -->
+</manifest> <!-- Copyright (c) 2017 YA <ya.androidapp@gmail.com> All rights reserved. This software includes the work that is distributed in the Apache License 2.0 -->

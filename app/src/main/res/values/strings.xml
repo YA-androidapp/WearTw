@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">WearTw</string>
     <string name="tweet">Tweet</string>
-</resources>
+    <string name="title_activity_tl">Tl</string>
+    <string name="hello_world">Hi!</string>
+    <string name="title_activity_action">ActionActivity</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+</resources><!-- Copyright (c) 2017 YA <ya.androidapp@gmail.com> All rights reserved. This software includes the work that is distributed in the Apache License 2.0 -->
+

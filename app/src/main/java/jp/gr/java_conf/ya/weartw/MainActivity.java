@@ -17,7 +17,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class MainActivity extends WearableActivity {
-    private BoxInsetLayout mContainerView;
+    // private BoxInsetLayout mContainerView;
     private Button button1;
     private ConnectivityManager mConnectivityManager;
     private EditText editText1;
@@ -30,7 +30,7 @@ public class MainActivity extends WearableActivity {
 
         setContentView(R.layout.activity_main);
 
-        mContainerView = (BoxInsetLayout) findViewById(R.id.container);
+        // mContainerView = (BoxInsetLayout) findViewById(R.id.container);
         button1 = (Button) findViewById(R.id.button1);
         editText1 = (EditText) findViewById(R.id.editText1);
         textView1 = (TextView) findViewById(R.id.textView1);
